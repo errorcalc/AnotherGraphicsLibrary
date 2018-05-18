@@ -9,7 +9,6 @@
 #include "ZXGraphicsBitBlit.h"
 #include <stdlib.h>
 #include <assert.h>
-#include <memory.h>
 
 #define false 0
 #define true 1
