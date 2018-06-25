@@ -735,7 +735,7 @@ static const unsigned char lByte[] =
 // If you do not want to go to hell, then do not go into this code.
 // This function is working of 100%, but is very hard for mind.
 // Any changes of this fuction or any BitBlit functions should be accompanied
-// running test functions in zxGraphicsTest.h.
+// running "ZXGraphicsGen.py" and running test functions in zxGraphicsTest.h.
 // BEGIN $RawBitBlit(WriteByte1, WriteByte2, WriteByte3, WriteByte4)$. Do not change this line!
 void ZXRawBitBlitCopy(ZXBitmapRef bitmap, int x, int y,
                   ZXBitmapRef src, int srcX, int srcY, int srcWidth, int srcHeight)
